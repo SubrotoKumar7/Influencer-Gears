@@ -65,7 +65,8 @@
 }
 .cart  i{
     font-size: 1.30rem;
-    color: var(--darkColor}
+    color: var(--darkColor);
+}
 .banner{
     display: flex;
     justify-content: space-between;
