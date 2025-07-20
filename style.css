@@ -52,6 +52,9 @@
     justify-content: space-between;
     gap: 2.12rem;
 }
+.hidden{
+    display: none;
+}
 .main-menu a{
     text-decoration: none;
     color: var(--darkColor);
