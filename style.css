@@ -189,3 +189,39 @@
     font-weight: bold;
     margin: 16px 0;
 }
+
+/* footer style */
+.footer-area{
+    background-color: #0A0826;
+}
+.footer-content{
+    max-width: 262px;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+}
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.footer-area p{
+    font-size: 14px;
+    margin: 4px 0;
+    white-space: nowrap;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    margin: 10px 0;
+}
+.social-media i{
+    background-color: rgba(49, 40, 40, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
