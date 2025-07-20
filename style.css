@@ -170,3 +170,22 @@
     text-decoration: none;
     color: var(--btnColor);
 }
+
+/* product section style */
+.product-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    margin: 100px 0;
+}
+.product-title{
+    font-size: 2.37rem;
+    color: #0A0826;
+    font-weight: 700;
+}
+.product-content p{
+    color: #6C6C6C;
+    font-weight: bold;
+    margin: 16px 0;
+}
