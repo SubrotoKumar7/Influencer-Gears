@@ -1,3 +1,95 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* css variables */
+:root{
+    --darkColor: #3A3A3A;
+    --btnColor: #E02C6D;
+}
+
+/* shared style */
+.container{
+    width: calc(100vw - 120px);
+    margin: auto;
+}
+.primary-btn{
+    background-color: var(--btnColor);
+    padding: 10px 24px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 1s ease-in-out;
+}
+.primary-btn:hover{
+    background-color: #ff005d;
+}
+/* header style */
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--darkColor);
+}
+.main-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.12rem;
+}
+.main-menu a{
+    text-decoration: none;
+    color: var(--darkColor);
+    font-weight: 500;
+}
+.main-menu a i{
+    font-size: 1.30rem;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    font-size: 3.25rem;
+    color: var(--darkColor);
+    font-weight: bold;
+}
+.banner p{
+    color: var(--darkColor);
+    font-weight: 500;
+    padding: 10px 0 20px;
+}
+.booking-btn{
+    border-radius: 41px;
+}
+.banner-img{
+    background: url(./assets/images/Circle\ design.svg) no-repeat center center;
+    background-size: 100% 100%;
+    max-width: 440px;
+    max-height: 415px;
+}
+/* sponsor area style */
+.sponsor-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 36px 60px;
+}
